@@ -73,8 +73,6 @@ bootstrap:
 #              - cdf-group: cdf:uc:001:oee:read
 #              - idp-source-id: 25f48350-ae19-4162-8c04-92b7301d54b4
 #                idp-source-name: bootcamp-47-test-uc-001-oee-read
-
-        - cdf-project: cdf-bootcamp-47-prod
           mappings:
               - cdf-group: cdf:root
                 idp-source-id: d75c7b8a-8d23-400e-aff5-8ffb9f2e078a
@@ -91,8 +89,6 @@ bootstrap:
 #              - cdf-group: cdf:uc:001:oee:read
 #              - idp-source-id: 68a30798-a614-4fa2-b1d6-afffd8476f3e
 #                idp-source-name: bootcamp-47-prod-uc-001-oee-read
-
-
     namespaces:
         # Typical config will have a namespace for data sources ("src") and a namespace for use cases ("uc")
         - ns-name: src
