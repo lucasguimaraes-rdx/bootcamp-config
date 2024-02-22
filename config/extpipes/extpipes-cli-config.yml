@@ -29,7 +29,7 @@ default-contacts:
     - name: Lucas Guimaraes
       email: lucas.guimaraes@radixeng.com.br
       role: Bootcamp 47 Administrator
-      send-notification: true
+      send-notification: false
 
 rawdbs:
   # list of raw-dbs > containing rawtables > containing pipelines
